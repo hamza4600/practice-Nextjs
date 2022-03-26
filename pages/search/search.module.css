@@ -1,0 +1,231 @@
+.top{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: auto;
+    flex-direction: column;
+
+}
+.mai{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    flex-direction: column;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.search input{
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all 1s;
+    width: 150px;
+    position: relative!important ; 
+    left: 40%;
+}
+.search input:focus{
+    /* outline: none; */
+    transform: scale(1.1);
+}   
+.search ul{
+    list-style: none;
+    text-align: center;
+}
+.search li{
+    font-weight: 300px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.tabl{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    /* max-width: 550%; */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    /* width: 550px; */
+    text-align: center;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.tabl:hover{
+    box-shadow: 0px 0px 10px #000;
+
+}
+.thin th{
+    /* thin text  */
+    /* font-size: 10px; */
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    /* width: 450px; */
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px #000;
+
+}
+.card div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* flex-direction: row; */
+}
+.card img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.dee{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dee h3{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+.dee ul{
+    color: aqua;
+    font-size: 15px;
+    font-weight: 300;
+}
+.iot{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.iot input{
+    font-size: larger;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all 1s;
+    width: 190px;
+    position: relative!important ; 
+    left: 40%;
+}
+.iot .input:focus{
+    transform: scale(1.1);
+    margin: 15px;
+}
+.fri{
+    columns: 2;
+
+}
+.free{
+    display: block;
+    margin: 20px;
+    padding: 10px;
+}
+.free input{
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all 1s;
+    width: 150px;
+    position: relative!important ; 
+    left: 40%;
+}
+
+.car{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #000;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.car:hover{
+    box-shadow: 0px 0px 10px #000;
+
+}
+.car div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.car img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(49, 49, 49);
+    border-radius: 3px solid black;
+}
+
+@media screen and (max-width: 600px) {
+    .frie{
+        columns: 1;
+    }
+    .card{
+        width: 100%;
+        margin: 15px;
+        padding: 2px;
+         box-shadow: 0px 0px 10px #000; 
+    }
+    .iot {
+        width: 100%;
+        margin: 15px;
+        padding: 2px;
+         /* box-shadow: 0px 0px 10px #000;  */
+    }
+}
+
+
+
+
+@media screen and (min-width:1000px) {
+    .card{
+        width: 100%;
+        margin: 15px;
+        padding: 2px;
+         box-shadow: 0px 0px 10px #000;
+        
+    }
+    .frie{
+        columns: 3;
+    }
+}
+    

@@ -1,16 +1,69 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body {
+        @apply bg-slate-100;
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer components{
+    .intent {
+        @apply flex justify-between hover:shadow-xl p-4 cursor-pointer rounded-xl text-black bg-white max-w-md mx-auto xl:mx-0
+    }
+    .inputButton{
+        @apply flex  items-center space-x-2 font-medium cursor-pointer text-sm 
+    }
+    .postButton{
+        @apply flex items-center justify-center cursor-pointer hover:bg-black/10 dark:hover:bg-black/20 w-full py-2.5 rounded translate ease-out font-medium 
+    }
 }
 
-* {
-  box-sizing: border-box;
-}
+
+
+
+
+
+
+
+
+/* 
+owner: Object { login: "hamza4600", id: 78164997, node_id: "MDQ6VXNlcjc4MTY0OTk3", … }
+​​
+avatar_url: "https://avatars.githubusercontent.com/u/78164997?v=4"
+​​
+events_url: "https://api.github.com/users/hamza4600/events{/privacy}"
+​​
+followers_url: "https://api.github.com/users/hamza4600/followers"
+​​
+following_url: "https://api.github.com/users/hamza4600/following{/other_user}"
+​​
+gists_url: "https://api.github.com/users/hamza4600/gists{/gist_id}"
+​​
+gravatar_id: ""
+​​
+html_url: "https://github.com/hamza4600"
+​​
+id: 78164997
+​​
+login: "hamza4600"
+​​
+node_id: "MDQ6VXNlcjc4MTY0OTk3"
+​​
+organizations_url: "https://api.github.com/users/hamza4600/orgs"
+​​
+received_events_url: "https://api.github.com/users/hamza4600/received_events"
+​​
+repos_url: "https://api.github.com/users/hamza4600/repos"
+​​
+site_admin: false
+​​
+starred_url: "https://api.github.com/users/hamza4600/starred{/owner}{/repo}"
+​​
+subscriptions_url: "https://api.github.com/users/hamza4600/subscriptions"
+​​
+type: "User"
+​​
+url: "https://api.github.com/users/hamza4600"
+*/

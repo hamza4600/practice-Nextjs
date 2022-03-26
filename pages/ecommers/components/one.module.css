@@ -1,0 +1,384 @@
+.one{
+    background-color: #2a21aa;
+    border-radius: 10em;
+    color: aliceblue;
+    padding: 2px;
+}
+.two{
+    background-color: #3428d3;
+    border-radius: 1em;
+    color: aliceblue;
+    padding: 2px;
+    margin: 10px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.two li{
+    margin: 3px;
+    list-style-type: none;
+    width: 120px;
+}
+.two li:hover{
+    background-color: #231aa1;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    
+}
+.int{
+    background-color: #106bc0;
+    border-radius: 4px;
+    color: aliceblue;
+    padding: 2px;
+    margin: 10px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    
+}
+.int:focus{
+    background-color: #e2e7eb;
+    border-radius: 4px;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    color: black;
+    border: 1px solid black;
+}
+
+.three{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+    width: 400px;
+    background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+    height: 350px;
+
+
+}
+.foure{
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px; 
+    background: repeating-linear-gradient(-45deg, yellow, yellow 10%, black 10%, black 20% );
+    height: 350px;
+
+}
+.five{
+    background: radial-gradient(circle farthest-corner at top left, red, blue);
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+.six{
+    width: 400px;
+    border-radius: 10px;
+    background-color: #106bc0;
+    margin: 1%;    
+}
+.six img{
+    padding: 5px;
+    border-radius: 15px;
+    margin: 2px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; 
+}
+.six p{
+    padding: 5px;
+    margin: 2px;
+    padding: 1px 50px 10px 90px;
+    color: black;
+}
+.siven{
+    position: relative;
+    background: radial-gradient(circle farthest-corner at top left, rgb(247, 222, 3), rgb(10, 197, 230));
+    width: 350px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+
+}
+.siven p{
+    /* position: absolute; */
+    height: 100px;
+    line-height: 200px;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+}
+.eight{
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 2px;
+    margin: 10px;
+    top: 100px;
+    left: 250px;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    opacity: 0.9;
+    width: 350px;
+    display:  flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.eight p{
+    padding: 5px;
+    margin: 4px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.eight p:hover{
+    background-color: #d8d8da;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nine{
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle farthest-corner at top left, rgb(29, 15, 156), rgb(10, 197, 230));
+    border-radius: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid black;      
+    
+}
+.nine:hover{
+    rotate: 350deg;
+    transition-delay: 100ms;
+}
+/* make glass more effect
+ */
+.ten{
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle farthest-corner at top left, rgb(24, 160, 85), rgb(57, 204, 230));
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    font-size: 20px;
+}
+.ten p{
+    padding: 5px;
+    margin: 4px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background: hsl(0, 0%, 95%); */
+    opacity: 0.3;
+    background: hsla(0, 0%, 97%, .2);
+    backdrop-filter: blur(50px);
+}
+.glass{
+     width: 350px;
+    height: 350px;
+     background: radial-gradient(circle farthest-corner at top left, rgb(14, 255, 243), rgb(17, 65, 221));
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; 
+ 
+    flex-direction: column;
+    font-size: 20px;
+    color: #fff; 
+}
+.glass p{
+    margin: 10px ;
+    padding: 5px;
+    width: 100px;
+
+    /* From https://css.glass */
+background: rgba(191, 191, 191, 0.47);
+border-radius: 6px;
+box-shadow: 0 4px 30px rgba(231, 231, 231, 0.1);
+backdrop-filter: blur(11.1px);
+-webkit-backdrop-filter: blur(11.1px);
+border: 1px solid rgba(191, 191, 191, 0.72);
+}   
+
+
+.multi{
+    width: 400px;
+    height: 350px;
+    background: radial-gradient(circle farthest-corner at top left, #1a8dec, rgb(63, 230, 57));
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; 
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+     
+}
+.multi p{
+    max-width: 360px;
+     font-size: 10px;
+    padding: 0px;
+    margin: 1px;
+    letter-spacing: 1px;
+
+}
+.multi img{
+    width :300px;
+    border-radius: 10px;
+}
+.eleven{
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    border: 2px solid rgb(14, 91, 190); 
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; 
+    flex-direction: column;
+    font-size: 20px;
+
+}
+.eleven p{
+        background-color: rgb(31, 31, 31);
+        padding: 5px;
+        margin: 4px;
+        border: 2px solid #2c2cc7;
+        border-radius: 5px;
+    
+}
+.text{
+    width: 650px;
+    height: max-content;
+    background: radial-gradient(circle farthest-corner at top left, rgb(14, 91, 190), rgb(187, 143, 22));
+    border-radius: 10px;
+    margin: 10px;
+    /* display: flex;
+    justify-content: center; /* horizontal center */
+    /* align-items: center;  */
+    /* flex-direction: column; */
+    font-size: 20px; 
+    color: black;
+    overflow: hidden;
+
+}
+
+.text img{
+    margin: 5px;
+    width: 350px;
+    border-radius: 10px;
+    float: left;
+
+}
+.text p{
+    padding: 5px;
+    color: white;
+    font: bold 20px Arial, sans-serif;
+}
+
+.rows{
+    background-color: #106bc0;
+    border-radius: 10px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    /* justify-content: space-around; */
+}
+.rows h1{
+    background-color: #3428d3;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.rows h2{
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #2a21aa;
+    padding: 10px;
+
+}
+.textva{
+    width: 450px;
+    /* height: 350px; */
+    background: radial-gradient(circle farthest-corner at top left, rgb(190, 187, 14), rgb(181, 22, 187));
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; 
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+    text-shadow: 2px 2px 10px #ffffff;
+    text-indent: 5px;
+}
+.textva p{
+    text-decoration: underline;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;    
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #2a21aa;
+    padding: 10px;
+    direction: rtl;
+    /* writing-mode: vertical-rl; */
+    overflow: hidden;
+    text-overflow:  ellipsis; 
+    
+
+}
+@media screen and (max-width: 720px) {
+    .eleven{
+        width: 500px;
+        height: 500px;
+        background-color: #1a8dec;
+        color: white;
+
+    }
+    .text{
+        width :460px
+    }
+}
+
+

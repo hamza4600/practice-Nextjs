@@ -1,0 +1,111 @@
+.triva{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.question{
+    width: 80%;
+    background : linear-gradient(  rgb(20, 20, 20),  rgb(81, 81, 82));
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.answers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.answer{
+    cursor: pointer;
+    margin: 0 10px 20px 10px;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(  rgb(48, 48, 48),  rgb(46, 15, 158));
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 300;
+    transition: all 0.4s ;
+}
+.answer:hover{
+    background: linear-gradient(  rgb(44, 44, 44),  rgb(39, 174, 236));
+}
+.answer:active{
+    background: linear-gradient(  rgb(25, 54, 218),  rgb(62, 13, 238));
+}
+.answerA{
+    cursor: pointer;
+    margin: 0 10px 20px 10px;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background:  blue;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 300;
+    transition: all 0.4s ;
+}
+ 
+/* animation fro wrong and corredt answer */
+.wrong{
+    cursor: pointer;
+    margin: 0 10px 20px 10px;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(  rgb(48, 48, 48),  rgb(46, 15, 158));
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 300;
+    transition: all 0.4s ;
+
+    /* animation: wrong 2s ease forwards; */
+}
+.correct{
+    cursor: pointer;
+    margin: 0 10px 20px 10px;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(  rgb(48, 48, 48),  rgb(46, 15, 158));
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 300;
+    transition: all 0.4s ;
+
+    /* animation: correct 2s ease forwards; */
+}
+@keyframes wrong{
+    0%,20%,42%{
+        background: blue;
+    }
+    20%,40%,60%{
+        background: linear-gradient(  rgb(5, 5, 5),  rgb(39, 236, 170));
+    }
+    65%,100%{
+        background: red  
+    }
+}
+@keyframes correct{
+    0%,20%,42%{
+        background: rgb(44, 44, 212);
+    }
+    20%,40%,60%{
+        background: linear-gradient(  rgb(136, 136, 136),  rgb(39, 236, 170));
+    }
+    65%,100%{
+        background: greenyellow
+    }
+}
+.score{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
