@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ install alll depediencies fo the app
+ tailwind css post css 
 
-## Getting Started
+ install sanity 
 
-First, run the development server:
+ and creat a dataBase set up for the App creat account at sanity.io and use 
+ 
+ sanity init --coupon cleverprogrammer
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Ceate a schema for the Data 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Now set up Metamask and creat a account and use Rinkbt Test Network to it
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Now connect it to web 3 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+embark snake horn chicken ask cable until admit october helmet cradle reform
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+link in clone
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+for Icons
+npm install @mui/material @emotion/react @emotion/styled
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+>npm install @mui/icons-material
 
-## Deploy on Vercel
+save all icons 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm install next-auth
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm install @next-auth/mongodb-adapter mongodb
+ install recoil 
+ we can used it as a state manegment in our App Like a REdux 
+
+
+
+
+//The Ecxommers store is in  /ecommers
+ Front end is in Next js and backend is in Men stack 
+ Installl alll dependienceis for the e-commers store 
+ 
+ npm i axios react-alert react-alert-template-basic
+npm i react-helmet react-redux redux redux-thunk redux-devtools-extension overlay-navbar react-router
+
+
+
+
+Awsome React Library  for next js 
+add to main _app style 
+$ npm i rsuite --save
+
+All routes
+http://localhost:3000/linkedin/home
+http://localhost:3000/linkedin/
+
+/search 
+/hooks
+/ecommers/style
+/quiz
+/github
+
+If you are not loggin you cannot see the post page 
+
+News section in /linked contain lates news from news api
+ 
